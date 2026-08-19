@@ -1,0 +1,65 @@
+config:
+  credentials:
+  - id: https://github.com/PalomoIFCA/private3
+    password_var: GIT_PASSWORD
+    username_var: GIT_USER
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: fix/updatego
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/PalomoIFCA/private3:
+      branch: main
+      credential_tmp: true
+      credentials_id: https://github.com/PalomoIFCA/private3
+      repo: https://github.com/PalomoIFCA/private3
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/PalomoIFCA/private3 git:
+        commands:
+        - /usr/bin/env sh .sqa/script.zinnia_alert_lionfish.sh
+        container: qc.acc_jade_resourceful_serval
+  QC.Doc:
+    repos:
+      github.com/PalomoIFCA/private3 find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.indigo_humorous_dugong.sh
+        container: qc.doc_watermelon_mischievous_finch
+      github.com/PalomoIFCA/private3 git:
+        commands:
+        - /usr/bin/env sh .sqa/script.smoke_resilient_grizzly.sh
+        container: qc.doc_lagoon_daring_viper
+  QC.Lic:
+    repos:
+      github.com/PalomoIFCA/private3 licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.horizon_trustworthy_wombat.sh
+        container: qc.lic_glacier_agile_kiwi
+  QC.Sec:
+    repos:
+      github.com/PalomoIFCA/private3 bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.watermelon_bright_raven.sh
+        container: qc.sec_heather_resilient_marmoset
+  QC.Sty:
+    repos:
+      github.com/PalomoIFCA/private3 flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.frost_protective_turtle.sh
+        container: qc.sty_reef_savvy_cormorant
+  QC.Uni:
+    repos:
+      github.com/PalomoIFCA/private3 pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.taupe_impulsive_clownfish.sh
+        container: qc.uni_ebony_observant_opossum
+  QC.Ver:
+    repos:
+      github.com/PalomoIFCA/private3 get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.turquoise_scrappy_barracuda.sh
+        container: qc.ver_nutmeg_tough_stork
+timeout: 5400
