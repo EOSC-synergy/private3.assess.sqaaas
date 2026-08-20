@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private3 git:
         commands:
-        - /usr/bin/env sh .sqa/script.onyx_ambitious_kraken.sh
-        container: qc.acc_steel_elated_butterfly
+        - /usr/bin/env sh .sqa/script.ash_brilliant_angelfish.sh
+        container: qc.acc_mint_grumpy_dormouse
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private3 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.taupe_assured_skunk.sh
-        container: qc.doc_orchid_wondrous_coyote
+        - /usr/bin/env sh .sqa/script.reef_apprehensive_crow.sh
+        container: qc.doc_polar_exuberant_peacock
       github.com/PalomoIFCA/private3 git:
         commands:
-        - /usr/bin/env sh .sqa/script.dusk_tranquil_narwhal.sh
-        container: qc.doc_bone_intuitive_cougar
+        - /usr/bin/env sh .sqa/script.ice_optimistic_moth.sh
+        container: qc.doc_red_cranky_tortoise
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private3 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pistachio_worried_echidna.sh
-        container: qc.lic_ruby_sarcastic_lionfish
+        - /usr/bin/env sh .sqa/script.cerulean_bold_fox.sh
+        container: qc.lic_isabelline_humble_spren
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private3 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.carmine_responsible_gazelle.sh
-        container: qc.sec_sienna_plucky_jaguar
+        - /usr/bin/env sh .sqa/script.wheat_resilient_angelfish.sh
+        container: qc.sec_olive_open_rattlesnake
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private3 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.sand_brave_toad.sh
-        container: qc.sty_magenta_resilient_lionfish
+        - /usr/bin/env sh .sqa/script.pine_reflective_alpaca.sh
+        container: qc.sty_avocado_tenacious_horse
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private3 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.grape_playful_beaver.sh
-        container: qc.uni_cornflower_shrewd_gull
+        - /usr/bin/env sh .sqa/script.plum_apprehensive_cassowary.sh
+        container: qc.uni_pineapple_goofy_pangolin
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private3 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sapphire_flexible_narwhal.sh
-        container: qc.ver_emerald_empathetic_tarantula
+        - /usr/bin/env sh .sqa/script.cyan_savvy_orca.sh
+        container: qc.ver_moss_wondrous_cobra
 timeout: 5400
