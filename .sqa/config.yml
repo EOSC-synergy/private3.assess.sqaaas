@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private3 git:
         commands:
-        - /usr/bin/env sh .sqa/script.malachite_funny_capybara.sh
-        container: qc.acc_lemon_mysterious_parrot
+        - /usr/bin/env sh .sqa/script.olive_mischievous_emu.sh
+        container: qc.acc_champagne_zany_catfish
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private3 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.jade_imaginative_lobster.sh
-        container: qc.doc_mist_friendly_eel
+        - /usr/bin/env sh .sqa/script.purple_zealous_ferret.sh
+        container: qc.doc_blush_bold_frog
       github.com/PalomoIFCA/private3 git:
         commands:
-        - /usr/bin/env sh .sqa/script.ochre_bubbly_finch.sh
-        container: qc.doc_emerald_observant_tortoise
+        - /usr/bin/env sh .sqa/script.vermilion_affectionate_mandrill.sh
+        container: qc.doc_beige_dedicated_nymph
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private3 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.coffee_driven_donkey.sh
-        container: qc.lic_polar_perceptive_wildcat
+        - /usr/bin/env sh .sqa/script.glacier_quirky_salamander.sh
+        container: qc.lic_bone_curious_pelican
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private3 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.indigo_organized_elk.sh
-        container: qc.sec_taupe_supportive_bear
+        - /usr/bin/env sh .sqa/script.blush_compassionate_okapi.sh
+        container: qc.sec_cardamom_frugal_horse
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private3 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.mustard_bewildered_rhinoceros.sh
-        container: qc.sty_eggplant_tough_reindeer
+        - /usr/bin/env sh .sqa/script.forest_carefree_pangolin.sh
+        container: qc.sty_red_lively_orca
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private3 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.ash_unique_piranha.sh
-        container: qc.uni_cosmos_understanding_rattlesnake
+        - /usr/bin/env sh .sqa/script.aquamarine_feisty_bat.sh
+        container: qc.uni_aquamarine_cautious_whale
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private3 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.saffron_courageous_condor.sh
-        container: qc.ver_kiwi_focused_frog
+        - /usr/bin/env sh .sqa/script.wave_forgiving_eagle.sh
+        container: qc.ver_ruby_logical_piranha
 timeout: 5400
