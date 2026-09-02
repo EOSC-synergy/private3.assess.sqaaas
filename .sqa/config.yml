@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private3 git:
         commands:
-        - /usr/bin/env sh .sqa/script.jet_rational_gecko.sh
-        container: qc.acc_white_gracious_groundhog
+        - /usr/bin/env sh .sqa/script.gold_stoic_tarantula.sh
+        container: qc.acc_bluebell_devoted_gorilla
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private3 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.aquamarine_alert_puffin.sh
-        container: qc.doc_azure_grateful_baboon
+        - /usr/bin/env sh .sqa/script.cloud_unique_turtle.sh
+        container: qc.doc_obsidian_respectful_manta
       github.com/PalomoIFCA/private3 git:
         commands:
-        - /usr/bin/env sh .sqa/script.crimson_mindful_cougar.sh
-        container: qc.doc_scarlet_calm_crow
+        - /usr/bin/env sh .sqa/script.aqua_romantic_toad.sh
+        container: qc.doc_tan_bold_cobra
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private3 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.brown_generous_hare.sh
-        container: qc.lic_zinnia_enthusiastic_boa
+        - /usr/bin/env sh .sqa/script.linen_generous_goat.sh
+        container: qc.lic_daffodil_attentive_wildcat
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private3 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.pineapple_confused_grasshopper.sh
-        container: qc.sec_khaki_tough_orca
+        - /usr/bin/env sh .sqa/script.cherry_worried_donkey.sh
+        container: qc.sec_lavender_friendly_tarantula
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private3 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.arctic_stubborn_orangutan.sh
-        container: qc.sty_wisteria_gentle_phoenix
+        - /usr/bin/env sh .sqa/script.isabelline_philosophical_skunk.sh
+        container: qc.sty_chocolate_wondrous_dormouse
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private3 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.magenta_rugged_dugong.sh
-        container: qc.uni_fern_polite_skunk
+        - /usr/bin/env sh .sqa/script.orchid_loving_octopus.sh
+        container: qc.uni_fuchsia_cranky_dormouse
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private3 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.green_nervous_mongoose.sh
-        container: qc.ver_rose_protective_stork
+        - /usr/bin/env sh .sqa/script.harlequin_curious_newt.sh
+        container: qc.ver_denim_thoughtful_falcon
 timeout: 5400
