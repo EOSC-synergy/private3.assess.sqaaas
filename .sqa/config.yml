@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private3 git:
         commands:
-        - /usr/bin/env sh .sqa/script.polar_observant_jellyfish.sh
-        container: qc.acc_grege_mature_axolotl
+        - /usr/bin/env sh .sqa/script.alabaster_vibrant_wolverine.sh
+        container: qc.acc_aquamarine_rustic_griffin
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private3 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.marina_amiable_cockatoo.sh
-        container: qc.doc_rosewater_daring_jaguar
+        - /usr/bin/env sh .sqa/script.lime_independent_jellyfish.sh
+        container: qc.doc_glaucous_diligent_manatee
       github.com/PalomoIFCA/private3 git:
         commands:
-        - /usr/bin/env sh .sqa/script.arctic_brilliant_sphinx.sh
-        container: qc.doc_flamingo_artistic_ibis
+        - /usr/bin/env sh .sqa/script.cloud_tranquil_narwhal.sh
+        container: qc.doc_isabelline_devoted_osprey
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private3 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.clove_balanced_chimpanzee.sh
-        container: qc.lic_gray_bright_bison
+        - /usr/bin/env sh .sqa/script.sienna_easygoing_cockatoo.sh
+        container: qc.lic_rosewater_stubborn_bear
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private3 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.espresso_spirited_chimpanzee.sh
-        container: qc.sec_glacier_attentive_ocelot
+        - /usr/bin/env sh .sqa/script.pineapple_artistic_meerkat.sh
+        container: qc.sec_eggplant_content_gull
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private3 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.mustard_innocent_stork.sh
-        container: qc.sty_paprika_cranky_crow
+        - /usr/bin/env sh .sqa/script.lagoon_clever_ostrich.sh
+        container: qc.sty_lavender_polite_kangaroo
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private3 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.coffee_resilient_viper.sh
-        container: qc.uni_tide_adaptable_jaguar
+        - /usr/bin/env sh .sqa/script.ice_understanding_buffalo.sh
+        container: qc.uni_emerald_tough_flounder
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private3 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cosmos_kind_sphinx.sh
-        container: qc.ver_green_nurturing_pangolin
+        - /usr/bin/env sh .sqa/script.currant_mischievous_shark.sh
+        container: qc.ver_kiwi_responsible_ibis
 timeout: 5400
